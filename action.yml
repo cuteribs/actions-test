@@ -1,0 +1,12 @@
+name: 'Test Action'
+description: 'Test action from Cuteribs'
+inputs:
+  lastAuthor:
+    description: 'The last committer'
+    required: true
+outputs:
+  welcomeMessage:
+    description: 'The output welcomeMessage'
+runs:
+  using: node20
+  main: dist/index.js
