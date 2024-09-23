@@ -1,4 +1,4 @@
-name: 'Test Action'
+name: 'Test action from Cuteribs'
 description: 'Test action from Cuteribs'
 inputs:
   lastAuthor:
