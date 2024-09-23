@@ -5,6 +5,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: cuteribs/actions-test@v0
+    - name: Test action from Cuteribs
+      # You may pin to the exact commit or the version.
+      # uses: cuteribs/actions-test@77490c0df7a5c646e714d053296ab4a4b6ace67d
+      uses: cuteribs/actions-test@v0
       with:
-        lastAuthor: 'cuteribs'
+        # The last committer
+        lastAuthor: 'ribs'
+              
